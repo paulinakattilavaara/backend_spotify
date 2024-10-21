@@ -1,0 +1,21 @@
+# Ignorera .env-filen som innehåller känsliga uppgifter
+.env
+
+# Ignorera loggfiler
+logs/
+*.log
+
+# Ignorera node_modules
+node_modules/
+
+# Ignorera build-mappen
+dist/
+build/
+
+# Ignorera kompileringar av IDE/editorer
+.idea/
+.vscode/
+
+# Ignorera andra tillfälliga filer
+.DS_Store
+Thumbs.db
